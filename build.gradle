@@ -1,0 +1,40 @@
+#!/usr/bin/env gradle
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.9.0'
+    id 'application'
+}
+
+group = 'com.android.com.kotlin'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib'
+}
+
+kotlin {
+    jvmToolchain(11)
+}
+
+application {
+    mainClass = 'com.android.com.kotlin.one.Lesson2bKt'
+}
+
+sourceSets {
+    main {
+        kotlin {
+            srcDirs = ['src']
+        }
+    }
+}
+
+tasks.named('run') {
+    doFirst {
+        println '=== Exécution du Lesson2b ==='
+    }
+}
+

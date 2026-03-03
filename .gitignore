@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -29,4 +30,22 @@ bin/
 .vscode/
 
 ### Mac OS ###
+=======
+# Fichiers générés par Kotlin / Java
+*.class
+*.jar
+
+# IntelliJ / IDE
+/.idea/
+/*.iml
+/out/
+/build/
+/.gradle/
+*.kotlin_metadata
+
+# VS Code
+.vscode/
+
+# Mac OS
+>>>>>>> 4f31a44 (Ajout des exercices Kotlin 1 et 2, fichiers sources uniquement)
 .DS_Store
