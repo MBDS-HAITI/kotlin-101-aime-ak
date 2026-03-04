@@ -1,51 +1,16 @@
-<<<<<<< HEAD
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Kotlin ###
-.kotlin
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-=======
-# Fichiers générés par Kotlin / Java
+﻿# Fichiers compilés Kotlin/Java
 *.class
 *.jar
 
-# IntelliJ / IDE
-/.idea/
-/*.iml
-/out/
-/build/
-/.gradle/
-*.kotlin_metadata
+# Configuration IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+out/
 
-# VS Code
-.vscode/
+# Dossiers Copilot si présents
+.copilot/
 
-# Mac OS
->>>>>>> 4f31a44 (Ajout des exercices Kotlin 1 et 2, fichiers sources uniquement)
+# Mac / Windows
 .DS_Store
+Thumbs.db

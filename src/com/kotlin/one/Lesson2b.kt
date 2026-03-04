@@ -1,4 +1,4 @@
-package com.android.com.kotlin.one
+package com.kotlin.one
 
 
 // Exercise 1 — Immutable List

@@ -1,10 +1,9 @@
 package com.kotlin.one
 
 /**
- * Battle Arena Game - Main Entry Point
- * A console-based RPG battle system with teams and turn-based combat.
+ * Main entry point for the Battle Arena game.
+ * Creates two players, their teams, and starts the battle.
  */
-
 fun main() {
     println("\n╔═══════════════════════════════════════════════════════════╗")
     println("║           WELCOME TO BATTLE ARENA GAME!                  ║")
@@ -33,3 +32,4 @@ fun main() {
 
     println("\nThanks for playing Battle Arena!")
 }
+
